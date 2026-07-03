@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">L&amp;R Webs</title>
+  <defs>
+    <linearGradient id="ring" x1="40" y1="80" x2="470" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20d8ff"/>
+      <stop offset=".52" stop-color="#4f7cff"/>
+      <stop offset="1" stop-color="#d946ef"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="50%" cy="42%" r="70%">
+      <stop stop-color="#11195a"/>
+      <stop offset="1" stop-color="#020718"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <circle cx="256" cy="256" r="246" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="235" fill="none" stroke="url(#ring)" stroke-width="9" filter="url(#glow)"/>
+  <circle cx="256" cy="256" r="207" fill="none" stroke="#26336f" stroke-width="2"/>
+  <text x="256" y="292" text-anchor="middle" fill="url(#ring)" font-family="Arial, Helvetica, sans-serif" font-size="176" font-weight="700" letter-spacing="-20">L&amp;R</text>
+  <circle cx="134" cy="357" r="8" fill="#22d3ee"/>
+  <circle cx="378" cy="357" r="8" fill="#d946ef"/>
+  <text x="256" y="376" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="42" letter-spacing="18">WEBS</text>
+</svg>
